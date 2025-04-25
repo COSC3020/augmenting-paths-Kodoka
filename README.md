@@ -32,3 +32,20 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Runtime
+
+## Sources
+
+I watched the following to suplement my understanding of the Ford-Fulkerson
+algorithm:  
+
+https://www.youtube.com/watch?v=LdOnanfc5TM  
+
+I read through the following page for a general source of knowledge, and
+references lines 14-32 of their implementation of the Ford-Fulkerson
+algorithm to help figure out how to implement my DFS Augmenting Path code:  
+
+https://www.w3schools.com/dsa/dsa_algo_graphs_fordfulkerson.php  
+
+## Plagirism Notice
