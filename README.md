@@ -35,6 +35,15 @@ answer, including your reasoning, to this markdown file.
 
 ## My Runtime
 
+For my runtime complexity, $n$ represents the quantity of nodes in the input
+graph, and $m$ represents the quantity of edges in the input.  
+
+The first segment of code in my algorithm that doesn't perform some constant
+time work would be within dfsAugmentingPath. Every time dfsAugmentingPath is
+called on a new current, we mark it as visited, and push it onto the path. In
+the worst case scenario, we'll do this for every node one time, resulting in
+$\Theta(n)$.
+
 ## Sources
 
 I watched the following to suplement my understanding of the Ford-Fulkerson
