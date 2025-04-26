@@ -42,7 +42,11 @@ The first segment of code in my algorithm that doesn't perform some constant
 time work would be within dfsAugmentingPath. Every time dfsAugmentingPath is
 called on a new current, we mark it as visited, and push it onto the path. In
 the worst case scenario, we'll do this for every node one time, resulting in
-$\Theta(n)$.
+$\Theta(n)$. Additionally, for each node we visit, we loop over each of its
+outgoing edges, eventually checking all edges within the graph, resulting in
+$\Theta(m)$.  
+
+This gives us a combined total worst case runtime complexity of $\Theta(m + n)$.  
 
 ## Sources
 
